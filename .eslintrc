@@ -15,10 +15,14 @@
   ],
   "extends": "eslint-config-airbnb",
   "rules": {
-    "indent": [2, "tab", { "SwitchCase": 1, "VariableDeclarator": 1 }],
-    "no-tabs": "off",
-    "react/jsx-indent-props": [2, "tab"],
-    "react/jsx-indent": [2, "tab"],
-	"import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.test.jsx"]}]
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "curly": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.test.jsx"]}],
+    "object-curly-spacing": "off",
+    "one-var": "off",
+    "react/forbid-prop-types": "off",
+    "react/jsx-indent": "off"
   }
 }

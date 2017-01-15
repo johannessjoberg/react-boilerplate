@@ -1,8 +1,9 @@
+import 'tachyons/css/tachyons.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App/App';
 
 ReactDOM.render(
-	<App />,
-	document.body.appendChild(document.createElement('div')),
+  <App />,
+  document.body.appendChild(document.createElement('div')),
 );
